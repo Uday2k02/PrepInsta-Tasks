@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .circle{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .demo{
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            /* background-color: aqua; */
+            border: 15px solid gainsboro;
+            border-right-color: aqua;
+            animation: spin 1s infinite;
+            
+        }
+        @keyframes spin{
+            to{transform: rotate(360deg)}
+        }
+    </style>
+</head>
+<body>
+    <div class="circle">
+        <div class="demo"></div>
+    </div>
+</body>
+</html>

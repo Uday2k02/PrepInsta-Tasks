@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .round{
+        
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .demo1{
+        width: 30px;
+        height: 30px;
+        background-color: #5cbcfc;
+        border-radius: 50%;
+        margin: 5px;
+        animation: example 500ms infinite;
+        
+        
+        
+    }
+    .demo2{
+        width: 30px;
+        height: 30px;
+        background-color: #5cbcfc;
+        border-radius: 50%;
+        margin: 5px;
+        animation: example 700ms infinite;
+        
+    }
+    .demo3{
+        width: 30px;
+        height: 30px;
+        background-color: #5cbcfc;
+        border-radius: 50%;
+        margin: 5px;
+        animation: example 900ms infinite;
+        
+    }
+    @keyframes example{
+        0%{margin-bottom: 100px;}
+        /* 30%{transition: ease-in-out;} */
+        50%{margin-bottom: 0px;}
+        80%{margin-bottom: 40px;}
+        100%{margin-bottom: 0;}
+
+    }
+    
+    </style>
+</head>
+<body>
+    <!-- <h1>Animation in CSS</h1> -->
+    <div class="round">
+        <div class="demo1 demo"></div>
+        <div class="demo2 demo"></div>
+        <div class="demo3 demo"></div>
+</div>
+    </body>
+</html>

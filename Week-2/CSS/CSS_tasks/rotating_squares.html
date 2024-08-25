@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #squares { 
+            display: flex; 
+            flex-direction: column; 
+            flex-wrap: wrap; 
+            height: 173px; 
+            width: 40px; 
+        } 
+  
+        .square1 { 
+            width: 50px; 
+            flex: 0 0 50px; 
+            margin: 5px; 
+            background-color: green; 
+            animation: demo 500ms infinite;
+            animation-delay: 500ms;
+        } 
+        .square2 { 
+            width: 50px; 
+            flex: 0 0 50px; 
+            margin: 5px; 
+            background-color: green; 
+            animation: demo 500ms infinite;
+            animation-delay: 650ms;
+        } 
+        .square3 { 
+            width: 50px; 
+            flex: 0 0 50px; 
+            margin: 5px; 
+            background-color: green; 
+            animation: demo 500ms infinite;
+            animation-delay: 800ms;
+        } 
+        .square4 { 
+            width: 50px; 
+            flex: 0 0 50px; 
+            margin: 5px; 
+            background-color: green; 
+            animation: demo 500ms infinite;
+            animation-delay: 900ms;
+        } 
+        @keyframes demo{
+            0%{transition-timing-function: ease-in; transform: scale(0);}
+            /* 50%{transition-timing-function: ease-in-out;} */
+            100%{transition: ease-in-out;}
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="squares">
+        <div class="square1 square"></div>
+        <div class="square2 square"></div>
+        <div class="square3 square"></div>
+        <div class="square4 square"></div>
+    </div>
+</body>
+</html>

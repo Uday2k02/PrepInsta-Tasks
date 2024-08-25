@@ -1,0 +1,52 @@
+.header{
+    background-color: #893ed8;
+    height: 12vh;
+}
+.list-items{
+    list-style-type: none;
+}
+li{
+    padding: 40px;
+}
+#search{
+    margin-right: 300px;
+    margin-top: 30px;
+    height: 40px;
+    width: 140px;
+    background-color: #629297;
+    border-radius: 10px;
+}
+
+.home-page{
+    background-image: url('https://img.freepik.com/free-photo/pouch-map-toy-airplane-blue-background-with-space-writing-text_23-2147958180.jpg?t=st=1721403477~exp=1721407077~hmac=2c5f8ca1a07e2b8b0af5f28d0066ab4d02864f965b9ebeb8befd0a6c0166755f&w=1060');
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-page-intro{
+    text-align: center;
+
+}
+.home-page-heading{
+    padding: 120px;
+    font-family: 'Futura PT';
+    font-size: 100px;
+    animation: backwards;
+
+}
+.feature{
+    background-color: #129837;
+    text-align: center;
+}
+.features{
+    background-color: #872322;
+}
+.image{
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+}
+.features{
+    padding: 50px;
+}

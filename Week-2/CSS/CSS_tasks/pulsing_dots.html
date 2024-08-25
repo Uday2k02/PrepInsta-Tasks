@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .dots{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .dot1{
+            height: 50px;
+            width: 50px;
+            background-color: #00ccff;
+            border-radius: 50%;
+            margin: 5px;
+            animation: example1 1s infinite;
+            /* animation-delay: 1s; */
+            z-index: 4;
+            
+    
+        }
+        .dot2{
+            height: 50px;
+            width: 50px;
+            background-color: #00ccff;
+            border-radius: 50%;
+            margin: 5px;
+            animation: example1 1s infinite;
+            animation-delay: 1100ms;
+        }
+        .dot3{
+            height: 50px;
+            width: 50px;
+            background-color: #00ccff;
+            border-radius: 50%;
+            margin: 5px;
+            animation: example1 1s infinite;
+            animation-delay: 1200ms;
+        }
+        .dot4{
+            height: 50px;
+            width: 50px;
+            background-color: #00ccff;
+            border-radius: 50%;
+            margin: 5px;
+            animation: example1 1s infinite;
+            animation-delay: 1250ms;
+        }
+
+        @keyframes example1{
+            0%{transition-timing-function: ease-in;}
+            50%{transition-timing-function: ease-in-out; transform: scale(0);}
+            100%{transition-timing-function: ease-in-out;}
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="dots">
+        <div class="dot1"></div>
+        <div class="dot2"></div>
+        <div class="dot3"></div>
+        <div class="dot4"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+.profile-photo{
+    height: 140px;
+    width:130px;
+    border-radius: 20px;
+}
+
+.cover{
+    height: 300px;
+    width: 100%;
+}
+
+
+
+.story{
+    width: 8%; 
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    box-sizing: border-box;
+    /* display:flex; */
+    /* margin: 1cap;   */
+    /* margin-left: 70%;  */
+} 
+
+.edit{
+    margin: 10px;
+    margin-left: 0;
+    width: 8%; 
+    padding: 10px;
+    background-color:aliceblue;
+    color: black;
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: flex;
+    margin-left: 10%;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+li{
+   display: inline-flex;
+   text-align: center;
+   padding: 20px;
+
+}
